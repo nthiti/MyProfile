@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.sectionHeadText {
+  color: white;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .sectionHeadText {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .sectionHeadText {
+    font-size: 40px;
+  }
+}
+
+.sectionSubText {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .sectionSubText {
+    font-size: 18px;
+  }
+}
